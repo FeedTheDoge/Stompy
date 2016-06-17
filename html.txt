@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		#canvas {
+			background-color: black;
+			display: block;
+			margin: 30px auto;
+		}
+	</style>
+		<meta charset='utf8'>
+		<tittle>Rage inducing similuator</tittle>
+	</head>
+	
+	<body>
+		<canvas id='canvas'></canvas>
+	</body>
+</html>
