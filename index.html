@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<style>
-		#canvas {
-			background-image: url('Brick wall.jpg');
-			display: block;
-			margin: 30px auto;
-		}
-	</style>
-		<meta charset='utf8'>
-		<title>Rage inducing similuator</title>
+    <head>
+        <meta charset='utf-8'>
+        <title>Stompy</title>
+        <script src='pick.js'></script>
+		  <script src='level.js'></script>
 		<script src='entity.js'></script>
-		<script src='pick.js'></script>
-		<script src='sprite.js'></script>
-		<script src='stompy.js'></script>
-			
-	
-	</head>
-	
-	<body onload='init()'>
-		<canvas id='canvas'></canvas>
-	</body>
-	
-	<audio controls>
-	
-	
+        <script src='sprite.js'></script>
+		<script src='pad.js'></script>
+        <script src='stompy.js'></script>
+        <style>
+            body {
+                background-color: gray;
+            }
+            #canvas {
+                background-color: black;
+                display: block;
+                margin: 30px auto;
+            }
+        </style>
+    </head>
+    <body onload='init()'>
+        <canvas id='canvas'></canvas>
+    </body>
 </html>
